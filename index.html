@@ -24,41 +24,72 @@
         }
 
         .container { 
-            max-width: 600px; 
+            max-width: 700px; /* Widened slightly to accommodate the longer link names */
             margin: 0 auto; 
             background: #2E7D32; 
             padding: 40px; 
             border-radius: 12px; 
             box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
         }
-        h1 { color: #FFFFEB3B; font-weight: 900; letter-spacing: 1px; margin-top: 0; }
-        p { line-height: 1.6; }
-        .links { margin-top: 30px; }
+        
+        h1 { 
+            color: #FFEB3B; 
+            font-weight: 900; 
+            letter-spacing: 1px; 
+            margin-top: 0; 
+        }
+        
+        p { 
+            line-height: 1.6; 
+        }
+        
+        .links { 
+            margin-top: 15px; 
+            margin-bottom: 35px; /* Creates spacing before the next section */
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Ensures long links stack neatly on mobile screens */
+            gap: 20px; 
+        }
+        
         a { 
-            color: #FFFFEB3B; 
+            color: #FFEB3B; 
             text-decoration: none; 
             font-weight: bold; 
-            margin: 0 15px; 
         }
-        a:hover { text-decoration: underline; }
-        .footer { margin-top: 40px; font-size: 0.8em; color: lightgray; }
+        
+        a:hover { 
+            text-decoration: underline; 
+        }
+        
+        .footer { 
+            margin-top: 40px; 
+            font-size: 0.8em; 
+            color: lightgray; 
+        }
     </style>
 </head>
 <body>
 
-    <img src="app_icon.png" alt="Bounce Momentum Icon" class="app-icon">
+    <img src="app_icon.png" alt="Bitwise Games Icon" class="app-icon">
 
     <div class="container">
         <h1>BITWISE GAMES</h1>
-        <p>Welcome to the official developer page for <strong>Bounce Momentum: Reflex Arcade</strong>.</p>
-        <p>We are an independent studio dedicated to building high-quality, reflex-based arcade experiences for Android.</p>
         
+        <p>Welcome to the official developer page for <strong>Bounce Momentum: Reflex Arcade</strong>.</p>
         <div class="links">
-            <a href="privacy-policy.html">Privacy Policy</a>
-            <a href="terms-and-conditions.html">Terms & Conditions</a>
+            <a href="bounce-momentum-privacy-policy.html">Bounce Momentum Privacy Policy</a>
+            <a href="bounce-momentum-terms-and-conditions.html">Bounce Momentum Terms &amp; Conditions</a>
+        </div>
+
+        <p>We are an independent studio dedicated to building fun, engaging mobile experiences for Android.</p>
+        <div class="links">
+            <a href="bitwise-games-privacy-policy.html">Bitwise Games Privacy Policy</a>
+            <a href="bitwise-games-terms-and-conditions.html">Bitwise Games Terms &amp; Conditions</a>
         </div>
 
         <p class="footer">© 2026 Bitwise Games. All rights reserved.</p>
     </div>
+    
 </body>
 </html>
