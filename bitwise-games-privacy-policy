@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Bitwise Games</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for Bitwise Games</h1>
+    <p><strong>Effective Date:</strong> 26 June 2026</p>
+
+    <h2>1. Information We Do Not Collect</h2>
+    <p>Bitwise Games operates this informational website (gamesbitwise.github.io). This website is a static page. We do not use cookies, analytics trackers, or collect any personal data directly through this website.</p>
+
+    <h2>2. Information You Provide to Us</h2>
+    <p>If you choose to contact us directly via email (contactbitwisegames@gmail.com), we will only use your email address and any information you provide to respond to your inquiry. We do not sell, rent, or share your contact information with third parties.</p>
+
+    <h2>3. Third-Party Hosting</h2>
+    <p>This website is hosted on GitHub Pages. Please note that GitHub may collect standard server logs (such as IP addresses) as part of their standard hosting infrastructure. You can review GitHub's Privacy Statement for more details on their data handling practices.</p>
+
+    <h2>4. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact us at: <a href="mailto:contactbitwisegames@gmail.com">contactbitwisegames@gmail.com</a>.</p>
+
+</body>
+</html>
