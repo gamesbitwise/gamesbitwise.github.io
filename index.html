@@ -42,6 +42,42 @@
         p { 
             line-height: 1.6; 
         }
+
+        /* --- NEW STYLES FOR DOWNLOAD SECTION --- */
+        .download-section {
+            margin: 35px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .bounce-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px; /* Smooth corners for the game icon */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            margin-bottom: 15px;
+        }
+
+        .playstore-btn {
+            display: inline-block;
+            background-color: #FFEB3B; 
+            color: #1B5E20; 
+            padding: 14px 28px;
+            border-radius: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-decoration: none !important;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .playstore-btn:hover {
+            background-color: #FFF176;
+            transform: scale(1.05); /* Slight pop effect on hover */
+        }
+        /* --------------------------------------- */
         
         .links { 
             margin-top: 15px; 
@@ -77,6 +113,16 @@
         <h1>BITWISE GAMES</h1>
         
         <p>Welcome to the official developer page for <strong>Bounce Momentum: Reflex Arcade</strong>.</p>
+        
+        <!-- === NEW APP DOWNLOAD SECTION === -->
+        <div class="download-section">
+            <img src="bounce_icon.jpg" alt="Bounce Momentum Game Icon" class="bounce-icon">
+            <a href="https://play.google.com/store/apps/details?id=com.ashishtiwari.bounce" target="_blank" class="playstore-btn">
+                Download on Google Play
+            </a>
+        </div>
+        <!-- ================================= -->
+
         <div class="links">
             <a href="bounce-momentum-privacy-policy.html">Bounce Momentum Privacy Policy</a>
             <a href="bounce-momentum-terms-and-conditions.html">Bounce Momentum Terms &amp; Conditions</a>
