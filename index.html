@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bitwise Games</title>
+    
+    <!-- === FONT AWESOME CDN FOR OFFICIAL ICONS === -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
         body { 
             font-family: Arial, sans-serif; 
             text-align: center; 
             padding: 50px 20px; 
-            background-color: #1B5E20; /* Matches your app's menu! */
+            background-color: #1B5E20; 
             color: white; 
         }
 
-        /* Styles the app icon and creates space to push the container lower */
         .app-icon {
             display: block;
-            margin: 0 auto 30px auto; /* Centers the icon; '30px' pushes the box down */
+            margin: 0 auto 30px auto; 
             width: 120px;
             height: 120px;
-            border-radius: 28px; /* Smooth squircle corners for the app icon */
+            border-radius: 28px; 
             box-shadow: 0 4px 12px rgba(0,0,0,0.4);
         }
 
         .container { 
-            max-width: 700px; /* Widened slightly to accommodate the longer link names */
+            max-width: 700px; 
             margin: 0 auto; 
             background: #2E7D32; 
             padding: 40px; 
@@ -38,14 +41,22 @@
             letter-spacing: 1px; 
             margin-top: 0; 
         }
+
+        h2 {
+            color: #FFF176;
+            font-size: 1.1em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
         
         p { 
             line-height: 1.6; 
         }
 
-        /* --- NEW STYLES FOR DOWNLOAD SECTION --- */
         .download-section {
-            margin: 35px auto;
+            margin: 30px auto 20px auto;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -54,7 +65,7 @@
         .bounce-icon {
             width: 80px;
             height: 80px;
-            border-radius: 18px; /* Smooth corners for the game icon */
+            border-radius: 18px; 
             box-shadow: 0 4px 10px rgba(0,0,0,0.3);
             margin-bottom: 15px;
         }
@@ -75,16 +86,51 @@
 
         .playstore-btn:hover {
             background-color: #FFF176;
-            transform: scale(1.05); /* Slight pop effect on hover */
+            transform: scale(1.05); 
         }
-        /* --------------------------------------- */
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+
+        /* --- UPDATED FOR HYBRID BUTTONS --- */
+        .social-btn {
+            display: inline-flex; /* Changed to inline-flex to align icon and text */
+            align-items: center;  /* Centers icon and text vertically */
+            gap: 8px;             /* Adds space between the icon and the text */
+            background-color: rgba(255, 255, 255, 0.1); 
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.2s, transform 0.2s;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+
+        .social-btn i {
+            font-size: 1.2em; /* Makes the official icon slightly larger than the text */
+        }
+
+        .social-btn:hover {
+            background-color: rgba(255, 255, 255, 0.25);
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        /* ---------------------------------- */
         
         .links { 
             margin-top: 15px; 
-            margin-bottom: 35px; /* Creates spacing before the next section */
+            margin-bottom: 30px; 
             display: flex;
             justify-content: center;
-            flex-wrap: wrap; /* Ensures long links stack neatly on mobile screens */
+            flex-wrap: wrap; 
             gap: 20px; 
         }
         
@@ -112,23 +158,50 @@
     <div class="container">
         <h1>BITWISE GAMES</h1>
         
+        <!-- === PRODUCT / GAME SECTION === -->
         <p>Welcome to the official developer page for <strong>Bounce Momentum: Reflex Arcade</strong>.</p>
         
-        <!-- === NEW APP DOWNLOAD SECTION === -->
         <div class="download-section">
             <img src="bounce_icon.jpg" alt="Bounce Momentum Game Icon" class="bounce-icon">
             <a href="https://play.google.com/store/apps/details?id=com.ashishtiwari.bounce" target="_blank" class="playstore-btn">
                 Download on Google Play
             </a>
         </div>
-        <!-- ================================= -->
 
         <div class="links">
             <a href="bounce-momentum-privacy-policy.html">Bounce Momentum Privacy Policy</a>
             <a href="bounce-momentum-terms-and-conditions.html">Bounce Momentum Terms &amp; Conditions</a>
         </div>
 
+        <!-- === STUDIO / BRAND SECTION === -->
         <p>We are an independent studio dedicated to building fun, engaging mobile experiences for Android.</p>
+
+        <h2>Connect With Us</h2>
+        <!-- === HYBRID BUTTONS WITH FONTAWESOME ICONS === -->
+        <div class="social-links">
+            <a href="http://www.youtube.com/@BitwiseGames" target="_blank" class="social-btn">
+                <i class="fab fa-youtube"></i> YouTube
+            </a>
+            <a href="https://x.com/GamesBitwise" target="_blank" class="social-btn">
+                <i class="fab fa-x-twitter"></i> X (Twitter)
+            </a>
+            <a href="https://www.instagram.com/bitwisegames/" target="_blank" class="social-btn">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://www.reddit.com/user/Bitwise_Games/" target="_blank" class="social-btn">
+                <i class="fab fa-reddit"></i> Reddit
+            </a>
+            <a href="https://discord.gg/5zGK5GkYw" target="_blank" class="social-btn">
+                <i class="fab fa-discord"></i> Discord
+            </a>
+            <a href="https://www.twitch.tv/bitwisegames" target="_blank" class="social-btn">
+                <i class="fab fa-twitch"></i> Twitch
+            </a>
+            <a href="https://gamesbitwise.itch.io/" target="_blank" class="social-btn">
+                <i class="fab fa-itch-io"></i> Itch.io
+            </a>
+        </div>
+
         <div class="links">
             <a href="bitwise-games-privacy-policy.html">Bitwise Games Privacy Policy</a>
             <a href="bitwise-games-terms-and-conditions.html">Bitwise Games Terms &amp; Conditions</a>
